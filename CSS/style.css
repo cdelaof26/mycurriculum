@@ -1,0 +1,140 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	background-color: rgb(90, 105, 110);
+	font-family: Arial;
+}
+
+blockquote { 
+  display: block;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+nav{
+	background-color: #FFF;
+	margin: 0rem;
+	padding: 3rem;
+	text-align: right;
+}
+
+section{
+	color: #FFF;
+	text-align: center;
+	margin: 0rem;
+	padding: 1rem;
+} 
+
+aside{
+	text-align: center;
+	color: #000;
+	margin: 0rem;
+	padding: 2rem;
+}
+
+footer{
+	text-align: center;
+	background-color: #FFF;
+	color: #000;
+	margin: 0rem;
+	padding: 1rem;
+}
+
+input{
+	border: 0px;
+	border-radius: 5px;
+	width: 10rem;
+}
+
+.centIMG{
+	margin: -35px;
+	display: inline-block;
+	width: 15rem; 
+	height: auto;
+}
+
+.di{
+	text-align: right;
+	display: inline-block;
+}
+
+.indexSqu{
+	text-align: center;
+	width: 278px;
+	height: 150px;
+	padding: 1rem;
+	display: inline-block;
+	border: 1px solid white;
+}
+
+.butt{
+	text-align: center;
+	width: 278px;
+	padding: 1rem;
+	display: inline-block;
+	border: 1px solid white;
+}
+
+.fot{
+	text-align: center;
+	width: 22vw;
+	padding: 1rem;
+	display: inline-block;
+}
+
+.workIMG{
+	float: right;
+	width: 15rem;
+	height: 10rem;
+	margin: -4.5rem;
+	border-radius: 10px;
+}
+
+.peopleIMG{
+	float: right;
+	width: 10rem;
+	height: 10rem;
+	margin: -6rem;
+	border-radius: 100px;
+}
+
+.Peoplep{
+	text-align: left;
+	color: #FFF;
+	padding: 7rem;
+}
+
+
+@keyframes bgr{
+	from{
+		transform: scale(5);
+	}
+	to{
+		transform: scale(1);
+	}
+}
+
+@keyframes chback{
+	from{
+		background-color: rgb(215, 40, 35);
+	}
+	to{
+		background-color: rgb(0, 0, 255);
+	}
+}
+
+@keyframes rot{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
